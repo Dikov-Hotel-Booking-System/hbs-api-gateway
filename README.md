@@ -6,14 +6,13 @@
 
 ## 📌 Описание
 
-Создан каркас API Gateway на Spring Cloud Gateway с регистрацией в Eureka.
-Маршруты к бизнес-сервисам пока не настроены.
+API Gateway направляет `GET /api/hotels` в `hbs-hotel-service`. Eureka помогает найти экземпляр сервиса на его текущем порту.
 
 ---
 
 ## 📘 Документация по процессам
 
-- ### [GitHub Flow](docs/github_flow/index.md)
+- ### [GitHub Flow](docs/github_flow.md)
 
 ---
 

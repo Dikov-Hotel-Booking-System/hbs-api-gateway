@@ -3,6 +3,15 @@ spring:
     import: optional:file:./config/application.yaml
   application:
     name: hbs-api-gateway
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: hotel-service
+              uri: lb://hbs-hotel-service
+              predicates:
+                - Path=/api/hotels
 
 server:
   port: 8080
