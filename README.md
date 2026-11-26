@@ -12,7 +12,7 @@ API Gateway направляет `GET /api/hotels` в `hbs-hotel-service`. Eurek
 
 ## 📘 Документация по процессам
 
-- ### [GitHub Flow](docs/github_flow/index.md)
+- ### [GitHub Flow](docs/github_flow.md)
 
 ---
 
